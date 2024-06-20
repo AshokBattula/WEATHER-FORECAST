@@ -106,3 +106,48 @@ body{
   margin-left: 35px;
   position: fixed;
 }
+@media only screen and (max-width: 768px){
+  .App{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 50% 0%;
+    margin-top: 20%;
+    margin-left: 18%;
+    height: 450px;
+    width: 300px;
+    left: 0px;
+  }
+  .App input{
+    padding: 5px 0px;
+    font-size: 14px;
+  }
+  .humidity-wind .humidity img{
+    position: fixed;
+    margin-left: 50px;
+    width: 35px;
+  }
+  .humidity-wind .wind img{
+    position: fixed;
+    width: 35px;
+  }
+  .humid{
+    margin-right: 30px;
+    /* margin-bottom: -40px; */
+  }
+  .wind-info{
+    padding: 10px;
+    line-height: 10px;
+    letter-spacing: 1px;
+  }
+  .humid p{
+    margin-left: 10px;
+  }
+  .humidity, .wind{
+    margin-top: 20px;
+  }
+  .wind-info h3{
+      margin-right: 10px;
+      line-height: 15px;
+  }
+}
