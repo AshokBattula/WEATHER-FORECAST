@@ -1,0 +1,108 @@
+body{
+  background-image: url("https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.search-button img{
+     height: 30px;
+     width: 30px; 
+     border: none;
+     outline: none;
+     border-radius: 50%;
+     background-color: #fff;
+     background-position: center;
+}
+.search{
+  display: flex;
+  margin-bottom: 45px;
+}
+.search .search-button{
+  border-radius: 40%;
+  background-color: #fff;
+  margin-left: 10px;
+}
+.search input{
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+.App button{
+  border-radius: 20%;
+  border: none;
+}
+.weather-img img{
+  height: 100px;
+  width: 100px;
+}
+.humidity img{
+  height: 30px;
+  width: 30px;
+}
+.wind img{
+  height: 30px;
+  width: 30px;
+}
+.humidity-wind{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+  width: 360px;
+  background: linear-gradient(to bottom, #87CEEB, #B0C4DE, #FFD700);
+  margin-left: 35%;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.temp h1{
+  margin-left: 28px;
+}
+.temp h2{
+  font-weight: 300;
+}
+.humidity, .wind {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-items: center;
+}
+ .humidity img, .wind img {
+  width: 50px;
+  height: auto;
+ }
+.Humidity-percentage, .wind-percentage {
+  margin: 5px 0;
+  text-align: center;
+}
+.humidity-wind .humidity img{
+     margin-top:20px;
+     margin-left: 15px;
+     position: fixed;
+}
+.humid {
+  line-height: 10%;
+  margin-top: 25px;
+}
+.temp{
+  line-height: 10%;
+  margin-top: 25px;
+}
+.wind-info{
+  line-height: 10%;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.humidity-wind .wind img{
+  margin-top:20px;
+  margin-left: 35px;
+  position: fixed;
+}
